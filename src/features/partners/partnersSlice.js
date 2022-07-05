@@ -17,8 +17,7 @@ export const fetchPartners = createAsyncThunk(
 const initialState = {
     partnersArray: [],
     isLoading: true,
-    errMsg: '',
-
+    errMsg: ''
 };
 
 const partnersSlice = createSlice({
